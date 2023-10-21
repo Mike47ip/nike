@@ -1,9 +1,16 @@
-import { Hero, CustomerReviews, Footer, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality
-} from './sections'
 
-const App = () => (
-  <main className="relative" >
-    {/* <Nav /> */}
+import { Footer, Hero, Services, PopularProducts, SuperQuality, SpecialOffer, CustomerReviews, Subscribe } from "./sections";
+import { Hero } from "./sections";
+import { Services } from "./sections";
+import { PopularProducts } from "./sections"
+import { SuperQuality } from "./sections"
+import { SpecialOffer } from "./sections"
+import { CustomerReviews } from "./sections"
+import { Subscribe } from "./sections"
+
+
+  const App = () =>  (
+    <main>
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
@@ -28,10 +35,8 @@ const App = () => (
     <section className="bg-black padding-x padding-t pd-8">
       <Footer />
     </section>
+    </main>
+    )
 
-  </main>
 
-
-)
-
-export default App;
+export default App
