@@ -1,12 +1,6 @@
 
 import { Footer, Hero, Services, PopularProducts, SuperQuality, SpecialOffer, CustomerReviews, Subscribe } from "./sections";
-import { Hero } from "./sections";
-import { Services } from "./sections";
-import { PopularProducts } from "./sections"
-import { SuperQuality } from "./sections"
-import { SpecialOffer } from "./sections"
-import { CustomerReviews } from "./sections"
-import { Subscribe } from "./sections"
+
 
 
   const App = () =>  (
